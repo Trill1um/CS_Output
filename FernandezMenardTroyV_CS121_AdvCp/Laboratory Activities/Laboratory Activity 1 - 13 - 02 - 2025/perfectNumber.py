@@ -1,4 +1,4 @@
-num=int(input("ENter number: "))
+num=int(input("Enter number: "))
 divisors=[]
 for i in range(1,num):
     if num%i==0:
