@@ -10,6 +10,8 @@ elif num==2:
 elif num>len(test):
     while not len(test)==num:
         test.append(test[-1]+test[-2])
-    print(test)
+    print(f"Fibonacci Series: ",end="")
+    for i in test:
+        print(i,end=" ")
 else:
     print("Enter valid number!!!")
